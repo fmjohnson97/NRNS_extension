@@ -1,2 +1,7 @@
 __pycache__/
 
+matterport_test_splits/*
+gibson_test_splits/*
+data/scene_datasets/*
+data/topo_nav/*
+models/*
