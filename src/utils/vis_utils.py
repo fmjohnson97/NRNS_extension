@@ -8,7 +8,7 @@ from habitat.utils.visualizations import maps
 
 AGENT_SPRITE = imageio.imread(
     os.path.join(
-        "~/GitRepos/habitat-lab/habitat-lab/habitat/utils/visualizations",
+        "/home/faith/GitRepos/habitat-lab/habitat-lab/habitat/utils/visualizations",
         "assets",
         "maps_topdown_agent_sprite",
         "100x100.png",
