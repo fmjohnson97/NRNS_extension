@@ -2,6 +2,8 @@ import torch
 import numpy as np
 import tqdm, json, gzip, quaternion
 from habitat.utils.geometry_utils import quaternion_from_coeff
+import sys
+sys.path.append('../../src/')
 
 from src.utils.model_utils import load_places_resnet
 from src.image_nav.visualize import Visualizer
