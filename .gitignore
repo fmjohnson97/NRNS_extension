@@ -5,3 +5,5 @@ gibson_test_splits/*
 data/scene_datasets/*
 data/topo_nav/*
 models/*
+
+.idea/*
