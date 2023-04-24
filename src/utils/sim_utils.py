@@ -87,7 +87,8 @@ def add_noise_actions_habitat():
 
 
 def set_up_habitat_noise(scene, turn_angle=15):
-    config = get_config()
+    breakpoint()
+    config = get_config('')
     config.defrost()
     config.TASK.POSSIBLE_ACTIONS = config.TASK.POSSIBLE_ACTIONS + [
         "NOISY_FORWARD",
